@@ -12,11 +12,22 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-/* Shared Color */
+/* Shared style */
 .color-primary{
   color: #4E47FF;
 }
-
+.ag-heading{
+  font-size: 24px;
+  line-height: 1.2;
+}
+.body-base {
+  font-size: 16px;
+  line-height: 1.4;
+}
+.body-strong{
+  font-size: 12px;
+  line-height: 1.4;
+}
 /* Header Style */
 .header-setion{
  background-image: url('../Assets/Hero-bg.png');
@@ -145,3 +156,51 @@
   font-size: 20px;
   /* margin-bottom: 50px; */
 }
+
+/* Users FeedBack Style */
+.users-feedback{
+  margin: 116px 159px 116px 141px;
+}
+.feedback-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card-container{
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+.card{
+    padding: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+}
+.card-icon{
+  gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.title-and-description{
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.card-title{
+ margin-bottom: 8px;
+}
+/* .card-descrption{
+  margin-bottom: 20px;
+} */
+ .card-reviwer-info{
+  display: flex;
+  gap: 8px;
+ }
+ .reviewer-image{
+  border-radius: 50%;
+}
+ .reviewer-name{
+  color: #78787c;
+ }
+ .reviewer-date{
+   color: #ababaf;
+ }
