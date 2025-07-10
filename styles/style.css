@@ -116,3 +116,32 @@
   border-radius: 40px;
   width: 400px;
 }
+
+/* Productive Section */
+.productive-section{
+   margin: 116px 159px 116px 141px;
+   background-color: #E8E9FE;
+   border-radius: 24px;
+   padding: 80px 50px;
+}
+.productive-section-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.user-stats{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 158px;
+}
+.stats-data{
+  font-weight: bold;
+  font-size: 80px;
+}
+.stat-subtitle{
+  font-weight: 400;
+  font-size: 20px;
+  /* margin-bottom: 50px; */
+}
