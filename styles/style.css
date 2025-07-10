@@ -75,3 +75,44 @@
   border-radius: 6px;
   cursor: pointer;
 }
+
+/* Action Section Style */
+.action{
+  display: flex;
+  justify-content: space-between;
+  gap: 220px;
+  margin: 116px 159px 116px 141px
+}
+.action-left{
+  padding: 62px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432; 
+  margin-bottom: 20px; 
+}
+.action-description{
+  font-size: 24px;
+  font-weight: 400;
+  color: #252432; 
+  opacity: 50%;
+  margin-bottom: 20px;
+}
+.action-left-btn{
+  padding: 12px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.ation-image-right{
+  border-radius: 40px;
+  width: 400px;
+}
