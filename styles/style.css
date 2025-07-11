@@ -197,6 +197,7 @@
  }
  .reviewer-image{
   border-radius: 50%;
+  overflow: hidden;
 }
  .reviewer-name{
   color: #78787c;
@@ -204,3 +205,36 @@
  .reviewer-date{
    color: #ababaf;
  }
+
+ /* Optional Section Style*/
+
+ .optional{
+  text-align: center;
+  margin: 116px 159px 116px 141px;
+  color: #FFFFFF;
+ }
+ .heading{
+  margin-top: 70px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 38px;
+  color: black;
+ }
+.paragraph{
+  margin-bottom: 20px;
+  color: rgba(136, 130, 130, 0.5);
+}
+.button-class{
+  margin-bottom: 20px;
+  padding: 12px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.image-class{
+  border-radius: 48px;
+}
