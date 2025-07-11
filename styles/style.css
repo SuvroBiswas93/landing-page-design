@@ -238,3 +238,53 @@
 .image-class{
   border-radius: 48px;
 }
+
+/* Get in Touch Section */
+.get-in-touch{
+  margin: 116px 159px 116px 141px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
+  gap: 40px;
+}
+.touch-column-1 {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.touch-header{
+  font-weight: bold;
+  font-size: 75px;
+}
+.touch-column{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.touch-column form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.touch-btn{
+  margin-top: 10px;
+  padding: 12px 30px;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #4E47FF;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;  
+}
+input[type ="text"], input[type ="email"], form textarea{
+    height: 50px;
+    border-radius: 5px;
+    display: block;
+    background-color: white;
+    width: 91.5%;
+    padding: 10px 20px;
+    border: none;
+  }
