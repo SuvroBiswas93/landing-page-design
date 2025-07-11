@@ -28,6 +28,10 @@
   font-size: 12px;
   line-height: 1.4;
 }
+.ag-paragraph{
+  font-size: 16px;
+  line-height: 24px;
+}
 /* Header Style */
 .header-setion{
  background-image: url('../Assets/Hero-bg.png');
@@ -288,3 +292,41 @@ input[type ="text"], input[type ="email"], form textarea{
     padding: 10px 20px;
     border: none;
   }
+
+  /* Footer Style */
+  .section-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0000001A;
+    width: 100%; 
+    height: 428px;
+    
+    
+  }
+  .common{
+    margin: 104px 455px;
+  }
+.f-logo{
+  font-size: 100px;
+  margin-bottom: 5px;
+}
+.f-description{
+  color: #8987A1;
+  margin-bottom: 20px;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px ;
+  color:#8987A1; 
+  list-style: none;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #8987A1;
+}
