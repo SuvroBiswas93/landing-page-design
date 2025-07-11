@@ -330,3 +330,29 @@ input[type ="text"], input[type ="email"], form textarea{
   text-decoration: none;
   color: #8987A1;
 }
+
+/* Add Hover effect to the buttons */
+.header-btn:hover{
+   background-color: yellowgreen;
+   font-size: 20px;
+}
+.banner-button:hover{
+  background-color: yellowgreen ;
+  font-size: 20px;
+}
+.touch-btn:hover{
+  background-color: yellowgreen;
+  font-size: 20px;
+}
+.action-left-btn:hover{
+  background-color: yellowgreen;
+  font-size: 20px;
+}
+.button-class:hover{
+  background-color: yellowgreen;
+  font-size: 20px;
+}
+.touch-btn:hover{
+   background-color: yellowgreen;
+   font-size: 20px;
+}
