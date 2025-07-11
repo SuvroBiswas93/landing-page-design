@@ -245,6 +245,9 @@
 
 /* Get in Touch Section */
 .get-in-touch{
+ background-color: #D6DDED;
+}
+.common-div{
   margin: 116px 159px 116px 141px;
   display: flex;
   justify-content: space-between; 
@@ -273,24 +276,28 @@
 }
 .touch-btn{
   margin-top: 10px;
+  margin-bottom: 70px;
   padding: 12px 30px;
   font-weight: bold;
   font-size: 16px;
   background-color: #4E47FF;
   color: white;
   border: none;
-  border-radius: 6px;
+  border-radius: 10px;
   cursor: pointer;
   width: 100%;  
 }
 input[type ="text"], input[type ="email"], form textarea{
     height: 50px;
-    border-radius: 5px;
+    border-radius: 10px;
     display: block;
     background-color: white;
     width: 91.5%;
     padding: 10px 20px;
     border: none;
+  }
+  .email-class{
+    margin-top: 70px;
   }
 
   /* Footer Style */
