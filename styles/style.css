@@ -62,23 +62,22 @@
   border-radius: 6px;
   cursor: pointer;
 }
-
 .banner{
    margin: 200px 130px 80px 130px;
 }
-
 .banner-content{
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  margin-top: 309px;
+  text-align: center;
+  /* margin-top: 309px; */
 }
 .banner-content h2{
   font-weight: bold;
   font-size: 65px;
   color: #252432;
-  
 }
-
 .banner-button{
   margin-top: 30px;
   padding: 12px 30px;
@@ -287,8 +286,16 @@
   cursor: pointer;
   width: 100%;  
 }
-input[type ="text"], input[type ="email"], form textarea{
+input[type ="text"], input[type ="email"]{
     height: 50px;
+    border-radius: 10px;
+    display: block;
+    background-color: white;
+    width: 91.5%;
+    padding: 10px 20px;
+    border: none;
+  }
+  form textarea{
     border-radius: 10px;
     display: block;
     background-color: white;
